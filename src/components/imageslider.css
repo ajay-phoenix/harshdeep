@@ -1,0 +1,21 @@
+.image-slider{
+    display: flex;
+}
+.image-slider img{
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+}
+.image-slider .slider{
+    width: 10%;
+    height: 500px;
+    border-right: 2px solid #000;
+    transition: all 0.8s;
+}
+.image-slider .slider:last-child{
+    width: 80%;
+    border-right: none;
+}
+.image-slider .slider img{
+    object-fit: cover;
+}
